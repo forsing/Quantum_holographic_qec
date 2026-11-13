@@ -16,9 +16,9 @@ from qiskit.quantum_info import Statevector
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -316,19 +316,19 @@ Posebnost: Izometrijsko sirenje sprezanja i Entanglement Wedge dekodiranje
 CSV: loto7_4718_k90.csv (kola: 4718)
 Validacija -> NLL: 3.6678 | Prosek pogodaka: 1.206
 Test       -> NLL: 3.6660 | Prosek pogodaka: 1.285
-NEXT       -> [2, 8, 9, 23, 24, 32, 38]
+NEXT       -> [2, x, 9, y, 24, z, 38]
 ----------------------------------------------------
 
 CSV: loto7_4718_k90_loto_2981.csv (kola: 2981)
 Validacija -> NLL: 3.6656 | Prosek pogodaka: 1.210
 Test       -> NLL: 3.6639 | Prosek pogodaka: 1.302
-NEXT       -> [6, 10, 16, 22, 24, 26, 34]
+NEXT       -> [6, x, 16, y, 24, z, 34]
 ----------------------------------------------------
 
 CSV: loto7_4718_k90_loto_plus_1737.csv (kola: 1737)
 Validacija -> NLL: 3.6643 | Prosek pogodaka: 1.254
 Test       -> NLL: 3.6650 | Prosek pogodaka: 1.272
-NEXT       -> [4, 7, 8, 14, 16, 18, 24]
+NEXT       -> [4, x, 8, y, 16, z, 24]
 ----------------------------------------------------
 """
 
